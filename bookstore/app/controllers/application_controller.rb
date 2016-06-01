@@ -4,5 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
 def index
-   return
+   return "this is great"
+   
 end
